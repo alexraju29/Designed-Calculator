@@ -2,10 +2,13 @@
 <html>
 <head>
     <title>JavaScript Calculator</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,42 +23,42 @@
             </tr>
             
              <tr class="btn">
-                <td><input type="button" value="c" name="" id="" class="cancel-btn"></td>
-                <td><input type="button" value="%" name="" id="" class="operator-btn"></td>
-                <td><input type="button" value="00" name="" id="" class="operator-btn"></td>
-                  <td><input type="button" value="/" name="" id="" class="operator-btn"></td>
+                <td><input type="button" value="c" name="" id="" class="clear-btn" onclick="clearClick()"></td>
+                <td><input type="button" value="%" name="" id="" class="operator-btn" onclick="buttonClick('%')" ></td>
+                <td><input type="button" value="00" name="" id="" class="operator-btn" onclick="buttonClick(00)"></td>
+                <td><input type="button" value="/" name="" id="" class="operator-btn" onclick="buttonClick('/')"></td>
             </tr>
 
 
             <tr class="btn">
-                <td><input type="button" value="7" name="" id=""></td>
-                <td><input type="button" value="8" name="" id=""></td>
-                <td><input type="button" value="9" name="" id=""></td>
-                <td><input type="button" value="-" name="" id="" class="operator-btn"></td>
+                <td><input type="button" value="7" name="" id="" onclick="buttonClick(7)"></td>
+                <td><input type="button" value="8" name="" id="" onclick="buttonClick(8)"></td>
+                <td><input type="button" value="9" name="" id="" onclick="buttonClick(9)"></td>
+                <td><input type="button" value="-" name="" id="" class="operator-btn" onclick="buttonClick('-')"></td>
             </tr>
 
 
 
             <tr class="btn">
-                <td><input type="button" value="4" name="" id=""></td>
-                <td><input type="button" value="5" name="" id=""></td>
-                <td><input type="button" value="6" name="" id=""></td>
-                <td><input type="button" value="+" name="" id="" class="operator-btn"></td>
+                <td><input type="button" value="4" name="" id="" onclick="buttonClick(4)"></td>
+                <td><input type="button" value="5" name="" id="" onclick="buttonClick(5)"></td>
+                <td><input type="button" value="6" name="" id="" onclick="buttonClick(6)"></td>
+                <td><input type="button" value="+" name="" id="" class="operator-btn" onclick="buttonClick('+')"></td>
             </tr>
 
 
             <tr class="btn">
-                <td><input type="button" value="1" name="" id=""></td>
-                <td><input type="button" value="2" name="" id=""></td>
-                <td><input type="button" value="3" name="" id=""></td>
-                <td><input type="button" value="*" name="" id="" class="operator-btn"></td>
+                <td><input type="button" value="1" name="" id="" onclick="buttonClick(1)"></td>
+                <td><input type="button" value="2" name="" id="" onclick="buttonClick(2)"></td>
+                <td><input type="button" value="3" name="" id="" onclick="buttonClick(3)"></td>
+                <td><input type="button" value="*" name="" id="" class="operator-btn" onclick="buttonClick('*')"></td>
             </tr>
 
 
             <tr class="btn">
-                <td><input type="button" value="." name="" id=""></td>
-                <td colspan="2"><input type="button" value="0" name="" id=""></td>
-                <td><input type="button" value="=" name="" id="" class="operator-btn"></td>
+                <td><input type="button" value="." name="" id="" onclick="buttonClick('.')"></td>
+                <td colspan="2"><input type="button" value="0" name="" id="" onclick="buttonClick(0)"></td>
+                <td><input type="button" value="=" name="" id="" class="operator-btn" onclick="equalClick()"></td>
                 
             </tr>
 

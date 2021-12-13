@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif !important;
     background-color: #cfd9fa;
 }
 
@@ -43,6 +43,11 @@ body {
     pointer-events: none;
     border: none;
     background-color: #5876e0;
+    text-align: right;
+    color: white;
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    padding-right: .3em;
     
 }
 .screen-cell{    /* The table column holding the screen */
@@ -73,9 +78,10 @@ input[type="button"] {
     font-weight: 550;
     border: none;
     background-color: #f6f8fe;
+    font-family: 'Roboto Slab', serif;
 }
 
-.cancel-btn {    
+.clear-btn {    
     background-color: #fad4ce !important;
 }
 
