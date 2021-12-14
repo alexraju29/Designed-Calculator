@@ -113,7 +113,7 @@ input[type="button"] {
 @media only screen and (max-width: 500px){
     
     .container{
-        max-height: 840px; /*Only for realme 6 */
+        max-height: 942px; /*Only for realme 6 */
     }
     .btn {
     height: 2em;  /* Each table row for the button */
