@@ -112,8 +112,14 @@ input[type="button"] {
 
 @media only screen and (max-width: 500px){
     
+    .btn {
+    height: 2em;  /* Each table row for the button */
+}
     input[type="button"]{
         font-size: 1.2em;
+    }
+    .operator-btn{
+        font-size: 1.5em !important;
     }
 }
 
