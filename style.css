@@ -52,6 +52,7 @@ body {
     font-size: 3em;
     font-family: 'Roboto Slab', serif;
     padding-right: .3em;
+/*    text-shadow: 1px 1px 5px #000;*/
    
 }
 #display2 {   /* The input type text */
@@ -63,6 +64,7 @@ body {
     font-size: 3em;
     font-family: 'Roboto Slab', serif;
     padding-right: .3em;
+/*    text-shadow: 1px 1px 5px #000;*/
    
 }
 .screen-cell{    /* The table column holding the screen */
