@@ -1,18 +1,21 @@
 function buttonClick(val) {
 
-    document.getElementById("display").value += val;
+    document.getElementById("display2").value += val;
 }
 
 function clearClick() {
 
-    document.getElementById("display").value = "";
+    document.getElementById("display2").value = "";
+    document.getElementById("display1").value = "";
 }
 
 function equalClick() {
 
-    var text = document.getElementById("display").value;
-
+    var text = document.getElementById("display2").value;
+    
+    document.getElementById("display1").value = text;
+    
     var result = eval(text);
-
-    document.getElementById("display").value = result;
+    
+    document.getElementById("display2").value ="=   "+ result;
 }

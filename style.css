@@ -35,11 +35,15 @@ body {
     width: 100%;
 }
 
-.screen {      /* The table row holding the screen */
-    height: 8em;
+.screen1 {      /* The table row holding the screen */
+    height: 4em;
+}
+.screen2 {      /* The table row holding the screen */
+    height: 4em;
 }
 
-#display {   /* The input type text */
+
+#display1 {   /* The input type text */
     pointer-events: none;
     border: none;
     background-color: #5876e0;
@@ -48,7 +52,18 @@ body {
     font-size: 3em;
     font-family: 'Roboto Slab', serif;
     padding-right: .3em;
-    
+   
+}
+#display2 {   /* The input type text */
+    pointer-events: none;
+    border: none;
+    background-color: #5876e0;
+    text-align: right;
+    color: white;
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    padding-right: .3em;
+   
 }
 .screen-cell{    /* The table column holding the screen */
     border: none;
