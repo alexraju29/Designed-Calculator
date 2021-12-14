@@ -11,6 +11,11 @@ function operatorClick(val){
     isDotClick=false;
 }
 
+function doubleZeroClick(){
+    
+    document.getElementById("display2").value += "00"
+}
+
 function clearClick() {
 
     document.getElementById("display2").value = "";
