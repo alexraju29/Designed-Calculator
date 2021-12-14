@@ -17,5 +17,6 @@ function equalClick() {
     
     var result = eval(text);
     
-    document.getElementById("display2").value ="=   "+ result;
+    
+    document.getElementById("display2").value = result;
 }
