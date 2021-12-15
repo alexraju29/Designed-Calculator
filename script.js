@@ -45,7 +45,7 @@ function equalClick() {
 
     var text = document.getElementById("display2").value;
 
-    document.getElementById("display1").value = text;
+    document.getElementById("display1").value = text + " =";
 
     var result = eval(text);
 
