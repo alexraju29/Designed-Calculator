@@ -36,10 +36,10 @@ body {
 }
 
 .screen1 {      /* The table row holding the screen */
-    height: 2em;
+    height: 2.5em;
 }
 .screen2 {      /* The table row holding the screen */
-    height: 2em;
+    height: 2.5em;
 }
 
 
@@ -118,13 +118,19 @@ input[type="button"] {
         max-height: 942px; /*Only for realme 6 */
     }
     .btn {
-    height: 2em;  /* Each table row for the button */
+        height: 1em;  /* Each table row for the button */
 }
     input[type="button"]{
         font-size: 1.2em;
     }
     .operator-btn{
         font-size: 1.5em !important;
+    }
+    .screen1 {      /* The table row holding the screen */
+        height: .5em !important;
+    }
+    .screen2 {      /* The table row holding the screen */
+        height: .5em !important;
     }
     
 }
